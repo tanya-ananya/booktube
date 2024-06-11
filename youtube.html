@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube.com Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/video.css" />
+    <link rel="stylesheet" href="styles/sidebar.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg" alt="" />
+        <a href="https://www.youtube.com/">
+          <img class="youtube-logo" src="icons/youtube-logo.svg" alt="" />
+        </a>
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg" alt="" />
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img
+            class="voice-search-icon"
+            src="icons/voice-search-icon.svg"
+            alt=""
+          />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="icon-container">
+          <img class="upload-icon" src="icons/upload.svg" alt="" />
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="icon-container">
+          <img class="youtube-apps-icon" src="icons/youtube-apps.svg" alt="" />
+          <div class="tooltip">YouTube apps</div>
+        </div>
+        <div class="icon-container">
+          <img
+            class="notifications-icon"
+            src="icons/notifications.svg"
+            alt=""
+          />
+          <div class="notifications-count">3</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <a href="https://www.instagram.com/tanya.ananya/">
+          <img class="current-user-picture" src="yt-images/my-channel.jpeg"/>
+        </a>
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg" alt="" />
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg" alt="" />
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg" alt="" />
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg" alt="" />
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg" alt="" />
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg" alt="" />
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtu.be/byLNt6tzyLw?si=qgvQp8TCEUOO7OI2" target=”_blank”>
+              <img class="thumbnail" src="yt-images/video1.jpeg" alt="" />
+            </a>
+            <div class="video-time">3:22</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@cinematic_bookworm" target=”_blank”>
+                <img class="profile-picture" src="yt-images/yter1.jpeg" alt="" />
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://youtu.be/byLNt6tzyLw?si=qgvQp8TCEUOO7OI2" target=”_blank”>
+                <p class="video-title">Fourth Wing Memes (Part 1) | Fourth Wing TikToks</p>
+              </a>
+              <a href="https://www.youtube.com/@cinematic_bookworm" target=”_blank”>
+                <p class="video-author">Cinematic Bookworm</p>
+              </a>
+              <p class="video-stats">43K views &#183; 9 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=cx1bvH8G7W0&pp=ygUSYWFyb24gd2FybmVyIGVkaXRz" target=”_blank”>
+              <img class="thumbnail" src="yt-images/video2.jpeg" alt="" />
+            </a>
+            </a>
+            <div class="video-time">8:49</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@readrn." target=”_blank”>
+                <img class="profile-picture" src="yt-images/yter2.jpeg" alt="" />
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=cx1bvH8G7W0&pp=ygUSYWFyb24gd2FybmVyIGVkaXRz" target=”_blank”>
+                <p class="video-title">Aaron Warner edits || shatter me series</p>
+              </a>
+              <a href="https://www.youtube.com/@readrn." target=”_blank”>
+                <p class="video-author">readrn</p>
+              </a>
+              <p class="video-stats">30K views &#183; 7 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=ZY1f7E_2iFA" target=”_blank”>
+              <img class="thumbnail" src="yt-images/video3.jpeg" alt="" />
+            </a>
+            <div class="video-time">13:14</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/channel/UCIWRaf6SYL0HLv6E5pdWv_g" target=”_blank”>
+                <img class="profile-picture" src="yt-images/yter3.jpeg" alt="" />
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=ZY1f7E_2iFA" target=”_blank”>
+                <p class="video-title">joel sunny - luminary (official music video)</p>
+              </a>
+              <a href="https://www.youtube.com/channel/UCIWRaf6SYL0HLv6E5pdWv_g" target=”_blank”>
+                <p class="video-author">Joel Sunny</p>
+              </a>
+              <p class="video-stats">3.4M views &#183; 6 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=XMdrHHh2aJc" target=”_blank”>
+              <img class="thumbnail" src="yt-images/video4.jpeg" alt="" />
+            </a>
+            <div class="video-time">14:20</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@VancityReynolds" target=”_blank”>
+                <img class="profile-picture" src="yt-images/yter2.jpeg" alt="" />
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=XMdrHHh2aJc" target=”_blank”>
+                <p class="video-title">Krafty Kid</p>
+              </a>
+              <a href="https://www.youtube.com/@VancityReynolds" target=”_blank”>
+                <p class="video-author">Ryan Reynolds</p>
+              </a>
+              <p class="video-stats">9.2M views &#183; 2 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=QsdNWjRoLJ0" target=”_blank”>
+              <img class="thumbnail" src="yt-images/video5.jpeg" alt="" />
+            </a>
+            <div class="video-time">3:55</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@gabbyherman5763" target=”_blank”>
+                <img class="profile-picture" src="yt-images/yter5.jpeg" alt="" />
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=QsdNWjRoLJ0" target=”_blank”>
+                <p class="video-title">Coriolanus Snow Edits</p>
+              </a>
+              <a href="https://www.youtube.com/@gabbyherman5763" target=”_blank”>
+                <p class="video-author">Gaby Herman</p>
+              </a>
+              <p class="video-stats">41K views &#183; 6 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=r1kiEUjouzk" target=”_blank”>
+              <img class="thumbnail" src="yt-images/video6.jpeg" alt="" />
+            </a>
+            <div class="video-time">14:20</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@MyBookZone1s" target=”_blank”>
+                <img class="profile-picture" src="yt-images/yter6.jpeg" alt="" />
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=r1kiEUjouzk" target=”_blank”>
+                <p class="video-title">BookTok Compilation - Bookish Humor</p>
+              </a>
+              <a href="https://www.youtube.com/@MyBookZone1" target=”_blank”>
+                <p class="video-author">MyBookZone</p>
+              </a>
+              <p class="video-stats">98K views &#183; 2 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=U0wgbNyY_wQ" target=”_blank”>
+              <img class="thumbnail" src="yt-images/video7.jpeg" alt="" />
+            </a>
+            <div class="video-time">7:04</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@booktokcompilations3493" target=”_blank”>
+                <img class="profile-picture" src="yt-images/yter7.jpeg" alt="" />
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=U0wgbNyY_wQ" target=”_blank”>
+                <p class="video-title">the inheritance games by jennifer lynn barnes booktok compilations</p>
+              </a>
+              <a href="https://www.youtube.com/@booktokcompilations3493" target=”_blank”>
+                <p class="video-author">booktok compilations</p>
+              </a>
+              <p class="video-stats">138K views &#183; 2 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=zHGTj0kCg04" target=”_blank”>
+              <img class="thumbnail" src="yt-images/video8.jpeg" alt="" />
+            </a>
+            <div class="video-time">3:47</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@rainbowbacon1837" target=”_blank”>
+                <img class="profile-picture" src="yt-images/yter8.jpeg" alt="" />
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=zHGTj0kCg04" target=”_blank”>
+                <p class="video-title">The Hungers Games as Vines</p>
+              </a>
+              <a href="https://www.youtube.com/@rainbowbacon1837" target=”_blank”>
+                <p class="video-author">Rainbow Bacon</p>
+              </a>
+              <p class="video-stats">228K views &#183; 5 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=DiVNtlIPNWk" target=”_blank”>
+              <img class="thumbnail" src="yt-images/video9.jpeg" alt="" />
+            </a>
+            <div class="video-time">13:51</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@EditStudio_" target=”_blank”>
+                <img class="profile-picture" src="yt-images/yter9.jpeg" alt="" />
+              </a>
+            </div>
+            <div class="video-info">
+              <a href="https://www.youtube.com/watch?v=DiVNtlIPNWk" target=”_blank”>
+                <p class="video-title">Shatter me series tiktok edits (mostly Aaron Warner)</p>
+              </a>
+              <a href="https://www.youtube.com/@EditStudio_" target=”_blank”>
+                <p class="video-author">&#44053;&#44221;</p>
+              </a>
+              <p class="video-stats">70K views &#183; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
